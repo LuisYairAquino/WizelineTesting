@@ -1,0 +1,17 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome src/saucedemo/tests/login.test.js --selector-timeout 15000 --assertion-timeout 15000 --reporter html:html-reporter/reporter.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "generator-testcafe-reporter": "^2.2.0",
+    "testcafe": "^1.8.2",
+    "testcafe-reporter-html": "^1.4.6",
+    "yo": "^3.1.1"
+  }
+}
